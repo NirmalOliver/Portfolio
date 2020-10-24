@@ -6,25 +6,159 @@
     <title>Portfolio</title>
 </head>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+
 <body>
+    <div id="progressbar"></div>
+    <div id="scrollpath"></div>
+    <div id="percent"></div>
+    <section>
+    
   <header>
       <a href="#" class="logo"><img src="NK logo.jpeg"></a>
-      <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Education</a></li>
-          <li><a href="#">Experience</a></li>
-          <li><a href="#">Projects</a></li>
-      </ul>
   </header>
-  <section class="banner">
-      <div class="container">
-          <div class="homepage">Hey Hi, I am Nirmal Kumar S.<br/>
-            Would you Like to explore my profile then scroll-down!
-        </div>
-      </div>
-  </section>
-  <script type="text/javascript" src="app.js">
+<div class="container">
+    <div class="section1">
+  <div class="banner">
+      <p>Hey hi, This is nirmal</p>
+      <div class="links">
+        <a href="https://github.com/NirmalOliver" target="_blank"><i class="fa fa-github"></i></a>
+         <a href="https://www.instagram.com/nk.developer/"target="_blank"><i class="fa fa-instagram"></i></a>
+         <a onclick="javascript:alert('Hey, Text Me!=>(+91) 7401629803')"><i class="fa fa-whatsapp"></i></a>
+        <a href="https://twitter.com/OliverNirmal"target="_blank"><i class="fa fa-twitter"></i></a>
+    </div>
+</div>
+    </div>   
+
+
+<div class="section3">
+  <div class="card1">
+    <img src="graduate.png">
+    <h1 class="name">B.E(Electrical & Electronics Engineering)</h1>
+    <p class="detail">Vel Tech Engineering College<br/>2014-2018</p>
+    <div class="btn-group">
+        <button><a href="NK logo.jpeg" class="btn" target="_blank">Certificate</a></button>
+    </div>
+</div>
+<div class="card2">
+  <img src="school.png">
+  <h1 class="name">High-School<br/>(Computer-Science)</h1>
+  <p class="detail">Smt.CBP Jain MHSS<br/>2012-2014</p>
+  <div class="btn-group">
+      <button><a href="NK logo.jpeg" class="btn"target="_blank">Certificate</a></button>
+  </div>
+  
+</div>
+
+
+</div>
+
+<div class="section2">
+  <h1><u>Explore My Projects</u><br />
+ Click & Rotate The Picture<br/>
+Click the Button to view the Project</h1>
  
-  </script>
+<div class="swiper-container">
+   
+   <div class="swiper-wrapper">
+     <div class="swiper-slide">
+         <div class="imgbx">
+             <img src="todo.png">
+         </div>
+         <div class="content">
+            <button class="btn"><a href="https://www.google.com/"href="_blank">To-do-app</a></button> 
+         </div>
+       </div>
+       <div class="swiper-slide">
+           <div class="imgbx">
+               <img src="khatabook clone.png">
+           </div>
+           <div class="content">
+              <button class="btn"><a href="https://www.google.com/"href="_blank">khatabook-clone</a></button> 
+           </div>
+         </div>
+         <div class="swiper-slide">
+           <div class="imgbx">
+               <img src="insta.jpg">
+           </div>
+           <div class="content">
+              <button class="btn"><a href="https://www.google.com/"href="_blank">Insta-Clone</a></button> 
+           </div>
+         </div>
+         <div class="swiper-slide">
+           <div class="imgbx">
+               <img src="website-designs.png">
+           </div>
+           <div class="content">
+              <button class="btn"><a href="https://www.google.com/"href="_blank">Responsive-Websites</a></button> 
+           </div>
+         </div>
+       
+
+
+   </div>
+   
+</div>   
+</div> 
+<div class="section4">
+  <div class="experiences">
+    <div id="exp01"><h2>Application Engineer(Non-IT)<br />
+    MAR 2019 - JAN 2020</h2><br/>
+    <p>Being an Application Enginner, I personally have to create timeline for the projects. It mainly involves
+      with the Industrial Cameras & Barcode Reader. <br/>I played major role which involves Installations, Sales, Techincal Support
+      Regularly I take my To-do-list mark the information and visit Client places often in which travelling is the major part of this role. 
+    </p>
+    </div>
+    <div id="exp02"><h2>Jr.Engineer(Non-IT)<br/>
+    MAR 2020 - JUN 2020</h2><br/>
+      <p>    • Evaluate and implement the testing algorithms to develop real time eye-tracking systems and give prototype solutions for tracking, detection and modeling.<br/>
+        • To develop Computer Based programming for Industrial CAMERAS using some logics of C and C#.<br/>
+        • Work closely with designers and production staff to help define software and hardware requirements.
+       
+      </p>
+    </div>
+  </div>
+  <div class="section5">
+   <a href="https://github.com/NirmalOliver" target="_blank"><i class="fa fa-github"></i></a>
+    <a href="https://www.instagram.com/nk.developer/"target="_blank"><i class="fa fa-instagram"></i></a>
+    <a onclick="javascript:alert('Hey, Text Me!=>(+91) 7401629803')"><i class="fa fa-whatsapp"></i></a>
+   <a href="https://twitter.com/OliverNirmal"target="_blank"><i class="fa fa-twitter"></i></a>
+    
+    
+    
+    </div>
+  <button class="dwnld-btn"><i class="fa fa-download"></i><a href="Resume.pdf" download="Resume">
+  Download-My-Resume</a></button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</section>
+  <script src="app.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js">
+</script>
+<script src="cube.js"></script>
+<script src="progressbar.js"></script>
+
 </body>
 </html>
